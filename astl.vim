@@ -1,7 +1,7 @@
 " Astl syntax file
 " Language:	Astl
 " Maintainer:	Andreas Franz Borchert <andreas.borchert@uni-ulm.de>
-" Last Change:	2011 Aug 31
+" Last Change:	2016 June 10
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
