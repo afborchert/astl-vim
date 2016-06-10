@@ -29,7 +29,7 @@ syntax keyword astConstant null
 
 " Standard functions
 syntax keyword astFunction assert defined integer isoperator isstring
-syntax keyword astFunction len location operator push println string
+syntax keyword astFunction len location operator push println prints string
 syntax keyword astFunction tokenliteral tokentext type gentext clone copy
 syntax keyword astFunction cfg_connect cfg_node cfg_type
 " Standard identifiers
