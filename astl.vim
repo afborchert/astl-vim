@@ -1,7 +1,7 @@
 " Astl syntax file
 " Language:	Astl
 " Maintainer:	Andreas Franz Borchert <andreas.borchert@uni-ulm.de>
-" Last Change:	2016 June 10
+" Last Change:	2019 March 25
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
@@ -28,10 +28,13 @@ syntax keyword astOperator cache create close cut delete retract
 syntax keyword astConstant null
 
 " Standard functions
-syntax keyword astFunction assert defined integer isoperator isstring
-syntax keyword astFunction len location operator push println prints string
-syntax keyword astFunction tokenliteral tokentext type gentext clone copy
-syntax keyword astFunction cfg_connect cfg_node cfg_type
+
+syntax keyword astFunction assert cfg_connect cfg_node cfg_type chr
+syntax keyword astFunction clone clone_ast copy defined exit gentext
+syntax keyword astFunction integer isoperator isstring len location
+syntax keyword astFunction make_node make_token operator ord pop
+syntax keyword astFunction println prints push string tokenliteral
+syntax keyword astFunction tokentext type
 " Standard identifiers
 syntax keyword astPredefined root graph
 
