@@ -1,7 +1,9 @@
-" Astl syntax file
+" Vim syntax file
 " Language:	Astl
 " Maintainer:	Andreas Franz Borchert <andreas.borchert@uni-ulm.de>
-" Last Change:	2019 March 25
+" Last Change:	2019-11-04
+" License:    	Vim (see :h license)
+" Repository:   https://github.com/afborchert/astl-vim
 
 " For version 5.x: Clear all syntax items
 " For version 6.x: Quit when a syntax file was already loaded
