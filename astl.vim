@@ -28,15 +28,19 @@ syntax keyword astOperator cache create close cut delete retract
 syntax keyword astConstant null
 
 " Standard functions
-
 syntax keyword astFunction assert cfg_connect cfg_node cfg_type chr
-syntax keyword astFunction clone clone_ast copy defined exit gentext
+syntax keyword astFunction clone clone_ast copy defined exit gentext getline
 syntax keyword astFunction integer isoperator isstring len location
-syntax keyword astFunction make_node make_token operator ord pop
+syntax keyword astFunction make_node make_token open operator ord pop
 syntax keyword astFunction println prints push string tokenliteral
 syntax keyword astFunction tokentext type
+
+" Functions defined for free-standing scripts
+syntax keyword astFunction parse run_state_machines
+
 " Standard identifiers
 syntax keyword astPredefined root graph
+syntax keyword astPredefined stdin stdout stderr cmdname
 
 syntax keyword astBoolean true false
 
